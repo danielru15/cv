@@ -1,0 +1,123 @@
+{
+    "basics": {
+      "name": "Daniel Ramírez Uribe",
+      "profesion": "Administrador de empresas.",
+      "image": "/me.webp",
+      "email": "danielru9715@gmail.com",
+      "phone": "+57 3217513801",
+      "summary":"Recién graduado en Administración de Empresas, con una formación sólida y una pasión ardiente por contribuir al éxito empresarial. Mi fascinación se enfoca en la integración de tecnologías web en el ámbito empresarial. Cuento con habilidades destacadas en JavaScript, React, CSS y Node.js, ofreciendo así una combinación única de destrezas administrativas y técnicas. Mi objetivo es no solo impulsar el crecimiento, sino también perfeccionar la eficiencia operativa con entusiasmo y dedicación.",
+      "location": {
+        "city": "Envigado",
+        "countryCode": "CO",
+        "departamento": "Antioquia"
+      },
+      "profiles": [
+        {
+          "network": "Github",
+          "username": "danielru15",
+          "url": "https://github.com/danielru15"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "OPTIMA INGENIERIA",
+        "position": "Practicante Administrativo",
+        "url": "https://www.optimaingenieria.co/",
+        "startDate": "06-06-2022",
+        "endDate": "12-12-2022",
+        "summary": "Es una empresa dedicada al sector de la infraestructura, donde desarrolle como trabajar de mejoramiento un aplicativo que permitiera generar reportes y ver el avance de los proyectos de una forma más dinámica y optimizada. Este se puede mostrar a petición."
+      }
+    ],
+    "education": [
+     { "institution": "UNIVERSIDAD EAFIT",
+      "url": "https://www.eafit.edu.co/",
+      "courses": [
+        {
+          "area": "Pregrado Ingeniería de Sistemas",
+          "startDate": "2016-01-20",
+          "endDate": "2016-06-20"
+        },
+        {
+          "area": "Pregrado Administración de Negocios",
+          "startDate": "2016-07-1",
+          "endDate": "2017-11-1"
+        },
+        {
+          "area": "Curso de inglés ",
+          "startDate": "2014-01-20",
+          "endDate": "2017-10-10"
+        }
+      ]
+    },
+    {
+      "institution": "CEIPA BUISNESS SCHOOL",
+      "url": "https://ceipa.edu.co",
+      "courses": [
+        {
+          "area": "Pregrado Administración de Empresas",
+          "startDate": "2018-01-1",
+          "endDate": "2023-07-1"
+        },
+        {
+          "area": "Curso de inglés ",
+          "startDate": "2022-01-1",
+          "endDate": "2023-03-1"
+        }
+      ]
+    },
+    {
+      "institution": "UNIVERSIDAD EIA",
+      "url": "https://ceipa.edu.co",
+      "courses": [
+        {
+          "area": "Diplomado en desarrollo back-end ",
+          "startDate": "2023-04-18",
+          "endDate": "2023-08-1"
+        }
+      ]
+    }
+    
+      ],
+    "skills": [
+      {
+        "name": "Adaptabilidad y Aprendizaje Continuo"
+      },
+      
+      {
+        "name": "Innovación y Pensamiento Creativo"
+      },
+      {
+        "name": "Conocimientos en Tecnologías De Desarrolo Web"
+      },
+      {
+        "name": "Colaboración en Equipo"
+      },
+      {
+        "name": "Comunicación Clara y Concisa"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "English",
+        "fluency": "Advanced"
+      }
+    ],
+    "references": [
+      {
+        "name": "Nora Isabel Posada",
+        "occupation": "Arquitecta constructor en conbienes.",
+        "phone":"+57 3208038947"
+      },
+      {
+        "name": "Lizeth Uribe Alvarez",
+        "occupation": "Administradora pública.",
+        "phone":"+57 3106344552"
+      }
+    ]
+    
+  }
