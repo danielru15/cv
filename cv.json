@@ -5,7 +5,7 @@
       "image": "/me.webp",
       "email": "danielru9715@gmail.com",
       "phone": "+57 3217513801",
-      "summary":"Recién graduado en Administración de Empresas, con una formación sólida y una pasión ardiente por contribuir al éxito empresarial. Mi fascinación se enfoca en la integración de tecnologías web en el ámbito empresarial. Cuento con habilidades destacadas en JavaScript, React, CSS y Node.js, ofreciendo así una combinación única de destrezas administrativas y técnicas. Mi objetivo es no solo impulsar el crecimiento, sino también perfeccionar la eficiencia operativa con entusiasmo y dedicación.",
+      "summary":"Graduado en Administración de Empresas, con una formación sólida y una pasión ardiente por contribuir al éxito empresarial. Mi fascinación se enfoca en la integración de tecnologías web en el ámbito empresarial. Cuento con habilidades destacadas en JavaScript, React, CSS y Node.js, ofreciendo así una combinación única de destrezas administrativas y técnicas. Mi objetivo es no solo impulsar el crecimiento, sino también perfeccionar la eficiencia operativa con entusiasmo y dedicación.",
       "location": {
         "city": "Envigado",
         "countryCode": "CO",
@@ -33,9 +33,18 @@
         "position": "Auxiliar de protocolista",
         "url": "https://notaria15medellin.co/",
         "startDate": "08-12-2024",
-        "endDate": "",
+        "endDate": "1-31-2025",
         "summary": "Responsable de la elaboración de minutas de escrituración, revisión detallada de documentos notariales, carga de escrituras para el proceso de registro, y organización de las escrituras una vez registradas"
+      },
+      {
+        "name": "NOTARIA 15 MEDELLÍN",
+        "position": "Desarrollo Freelancer Sistema Notarial",
+        "url": "https://notaria15medellin.co/",
+        "startDate": "1-03-2025",
+        "endDate": "",
+        "summary": "desarrollo de un sistema notarial que tiene como objetivo agilizar y optimizar la gestión de boletas de rentas, registro de actos notariales y otros procesos administrativos."
       }
+
     ],
     "education": [
      { "institution": "UNIVERSIDAD EAFIT",
