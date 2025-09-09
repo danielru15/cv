@@ -5,7 +5,7 @@
       "image": "/me.webp",
       "email": "danielru9715@gmail.com",
       "phone": "+57 3217513801",
-      "summary":"Graduado en Administración de Empresas, con una formación sólida y una pasión ardiente por contribuir al éxito empresarial. Mi fascinación se enfoca en la integración de tecnologías web en el ámbito empresarial. Cuento con habilidades destacadas en JavaScript, React, CSS y Node.js, ofreciendo así una combinación única de destrezas administrativas y técnicas. Mi objetivo es no solo impulsar el crecimiento, sino también perfeccionar la eficiencia operativa con entusiasmo y dedicación.",
+      "summary":"Administrador de Empresas con experiencia en desarrollo de soluciones digitales para optimizar procesos administrativos. Combino gestión estratégica y habilidades en desarrollo web (JavaScript, React, Node.js, PostgreSQL) para diseñar sistemas que reducen tareas manuales y mejoran la trazabilidad. Busco colaborar con empresas para transformar procesos en soluciones escalables y medibles.",
       "location": {
         "city": "Envigado",
         "countryCode": "CO",
@@ -16,17 +16,32 @@
           "network": "Github",
           "username": "danielru15",
           "url": "https://github.com/danielru15"
+        },
+        {
+          "network": "Linkedin",
+          "username": "daniel-ramirez-uribe-34bb63268/",
+          "url": "https://www.linkedin.com/in/daniel-ramirez-uribe-34bb63268/"
         }
       ]
     },
     "work": [
       {
-        "name": "OPTIMA INGENIERIA",
-        "position": "Practicante Administrativo",
-        "url": "https://www.optimaingenieria.co/",
-        "startDate": "06-06-2022",
-        "endDate": "12-12-2022",
-        "summary": "Es una empresa dedicada al sector de la infraestructura, donde desarrolle como trabajar de mejoramiento un aplicativo que permitiera generar reportes y ver el avance de los proyectos de una forma más dinámica y optimizada. Este se puede mostrar a petición."
+        "name": "NOTARIA 15 MEDELLÍN",
+        "position": "Desarrollo Freelancer Sistema Notarial",
+        "url": "https://notaria15medellin.co/",
+        "startDate": "1-03-2025",
+        "endDate": "",
+        "summary": [
+          {
+            "item": "Diseñé y desarrollé un sistema notarial para agilizar la gestión de boletas de rentas y otros procesos administrativos, definiendo la arquitectura funcional y los requisitos clave."
+          },
+          {
+            "item": "Implementé el módulo de boletas de rentas que automatiza la validación de datos y seguimiento, con control de estados y notificaciones para reducir errores manuales."
+          },
+          {
+            "item": "Desarrollé dashboards y reportes dinámicos para monitoreo de indicadores (volumen de trámites, tiempos de procesamiento, estados de boletas), permitiendo la toma de decisiones basada en datos y la medición de mejoras operativas."
+          }
+        ]
       },
       {
         "name": "NOTARIA 15 MEDELLÍN",
@@ -34,19 +49,60 @@
         "url": "https://notaria15medellin.co/",
         "startDate": "08-12-2024",
         "endDate": "1-31-2025",
-        "summary": "Responsable de la elaboración de minutas de escrituración, revisión detallada de documentos notariales, carga de escrituras para el proceso de registro, y organización de las escrituras una vez registradas"
+        "summary": [
+          {
+            "item": "Redacté y revisé minutas de escrituración, garantizando la exactitud jurídica y el cumplimiento de requisitos registrales."
+          },  
+          {
+            "item": "Gestioné la preparación, verificación y carga de escrituras en el sistema de registro, asegurando la integridad y trazabilidad de la información."
+          },
+          {
+            "item": "Organicé y mantuve el archivo de escrituras registradas, optimizando su localización para consultas internas y procesos de seguimiento."
+          }
+        ]
       },
       {
-        "name": "NOTARIA 15 MEDELLÍN",
-        "position": "Desarrollo Freelancer Sistema Notarial",
-        "url": "https://notaria15medellin.co/",
-        "startDate": "1-03-2025",
-        "endDate": "",
-        "summary": "desarrollo de un sistema notarial que tiene como objetivo agilizar y optimizar la gestión de boletas de rentas, registro de actos notariales y otros procesos administrativos."
+        "name": "OPTIMA INGENIERIA",
+        "position": "Practicante Administrativo",
+        "url": "https://www.optimaingenieria.co/",
+        "startDate": "06-06-2022",
+        "endDate": "12-12-2022",
+        "summary": [
+          {
+          "item": "Planteé y diseñé una propuesta funcional de un aplicativo interno para seguimiento de proyectos, definiendo objetivos, requisitos y flujos de información.."
+        }
+      ]
       }
 
     ],
     "education": [
+      {
+        "institution": "UNIVERSIDAD EIA",
+        "url": "https://ceipa.edu.co",
+        "courses": [
+          {
+            "area": "Diplomado en desarrollo back-end ",
+            "startDate": "2023-04-18",
+            "endDate": "2023-08-1"
+          }
+        ]
+      },
+      {
+        "institution": "CEIPA BUISNESS SCHOOL",
+        "url": "https://ceipa.edu.co",
+        "courses": [
+          {
+            "area": "Pregrado Administración de Empresas",
+            "startDate": "2018-01-1",
+            "endDate": "2023-07-1"
+          },
+          {
+            "area": "Curso de inglés ",
+            "startDate": "2022-01-1",
+            "endDate": "2023-03-1"
+          }
+        ]
+      },
      { "institution": "UNIVERSIDAD EAFIT",
       "url": "https://www.eafit.edu.co/",
       "courses": [
@@ -66,54 +122,39 @@
           "endDate": "2017-10-10"
         }
       ]
-    },
-    {
-      "institution": "CEIPA BUISNESS SCHOOL",
-      "url": "https://ceipa.edu.co",
-      "courses": [
+    }
+      ],
+    "skills": {
+      "tecnicas": [
         {
-          "area": "Pregrado Administración de Empresas",
-          "startDate": "2018-01-1",
-          "endDate": "2023-07-1"
+          "name": "JavaScript / TypeScript"
         },
         {
-          "area": "Curso de inglés ",
-          "startDate": "2022-01-1",
-          "endDate": "2023-03-1"
+          "name": "React / Node.js"
+        },
+        {
+          "name": "PostgreSQL"
+        },
+        {
+          "name": "HTML/CSS"
+        }
+      ],
+      "profesionales": [
+      
+        {
+          "name": "Resolución de Problemas"
+        },
+        {
+          "name": "Trabajo en Equipo"
+        },
+        {
+          "name": "Adaptabilidad y Aprendizaje Continuo"
+        },
+        {
+          "name": "Planificación Estratégica"
         }
       ]
     },
-    {
-      "institution": "UNIVERSIDAD EIA",
-      "url": "https://ceipa.edu.co",
-      "courses": [
-        {
-          "area": "Diplomado en desarrollo back-end ",
-          "startDate": "2023-04-18",
-          "endDate": "2023-08-1"
-        }
-      ]
-    }
-    
-      ],
-    "skills": [
-      {
-        "name": "Adaptabilidad y Aprendizaje Continuo"
-      },
-      
-      {
-        "name": "Innovación y Pensamiento Creativo"
-      },
-      {
-        "name": "Conocimientos en Tecnologías De Desarrolo Web"
-      },
-      {
-        "name": "Colaboración en Equipo"
-      },
-      {
-        "name": "Comunicación Clara y Concisa"
-      }
-    ],
     "languages": [
       {
         "language": "Spanish",

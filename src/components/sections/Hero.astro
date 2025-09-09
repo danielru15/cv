@@ -3,7 +3,7 @@ import {basics} from '@cv'
 import Section from '../Section.astro'
 import Mail from "@/icons/Mail.astro"
 import Phone from '@/icons/Phone.astro'
-import LinKedin from "@/icons/Linkedin.astro"
+import Linkedin from "@/icons/Linkedin.astro"
 import Github from "@/icons/Github.astro"
 import WorldMap from '@/icons/WorldMap.astro'
 
@@ -13,7 +13,7 @@ const { city,departamento } = location
 
 const SOCIAL_ICONS:Record<string, any> = {
   Github,
-  LinKedin,
+  Linkedin,
 }
 const linkedInfo = profiles.find(({ network }) => network === "Github")
 const linkedUrl = linkedInfo?.url

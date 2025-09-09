@@ -4,19 +4,49 @@ import {skills} from '@cv'
 
 ---
 <Section title="Habilidades">
-    <ul>
-        {
-          skills.map(({ name }) => (
-            <li>
-              <span>{name}</span>
-            </li>
-          ))
-        }
-      </ul>
-
+    <div class="skills-container">
+        <div class="skill-category">
+            <h3>Habilidades Técnicas</h3>
+            <ul>
+                {
+                  skills.tecnicas.map(({ name }) => (
+                    <li>
+                      <span>{name}</span>
+                    </li>
+                  ))
+                }
+            </ul>
+        </div>
+        
+        <div class="skill-category">
+            <h3>Habilidades Profesionales</h3>
+            <ul>
+                {
+                  skills.profesionales.map(({ name }) => (
+                    <li>
+                      <span>{name}</span>
+                    </li>
+                  ))
+                }
+            </ul>
+        </div>
+    </div>
 </Section>
 
 <style>
+    .skills-container {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .skill-category h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 0.8rem;
+      color: #333;
+    }
+
     ul {
       display: inline-flex;
       gap: 8px;
@@ -30,5 +60,32 @@ import {skills} from '@cv'
       font-size: 0.8rem;
       font-weight: 500;
       padding: 0.2rem 0.6rem;
+    }
+
+    @media (min-width: 768px) {
+      .skills-container {
+        flex-direction: row;
+        gap: 2rem;
+      }
+      
+      .skill-category {
+        flex: 1;
+      }
+    }
+
+    @media print {
+      .skills-container {
+        gap: 0.5rem;
+      }
+    }
+    ul {
+      gap: 0.5rem;
+    }
+    li {
+      font-size: 0.7rem;
+      padding: 0.1rem 0.4rem;
+    }
+    .skill-category h3 {
+      font-size: 0.9rem;
     }
   </style>
