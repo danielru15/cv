@@ -1,11 +1,11 @@
 {
     "basics": {
       "name": "Daniel Ramírez Uribe",
-      "profesion": "Administrador de empresas.",
+      "profesion": "Business Administrator",
       "image": "/me.webp",
       "email": "danielru9715@gmail.com",
       "phone": "+57 3217513801",
-      "summary":"Administrador de Empresas con experiencia en desarrollo de soluciones digitales para optimizar procesos administrativos. Combino gestión estratégica y habilidades en desarrollo web (JavaScript, React, Node.js, PostgreSQL) para diseñar sistemas que reducen tareas manuales y mejoran la trazabilidad. Busco colaborar con empresas para transformar procesos en soluciones escalables y medibles.",
+      "summary":"Business Administrator with experience in developing digital solutions to optimize administrative processes. I combine strategic management with web development skills (JavaScript, React, Node.js, PostgreSQL) to design systems that reduce manual tasks and improve traceability. I aim to collaborate with companies to transform processes into scalable and measurable solutions.",
       "location": {
         "city": "Envigado",
         "countryCode": "CO",
@@ -27,49 +27,49 @@
     "work": [
       {
         "name": "NOTARIA 15 MEDELLÍN",
-        "position": "Desarrollo Freelancer Sistema Notarial",
+        "position": "Freelance Developer – Notarial System",
         "url": "https://notaria15medellin.co/",
         "startDate": "1-03-2025",
         "endDate": "",
         "summary": [
-          {
-            "item": "Diseñé y desarrollé un sistema notarial para agilizar la gestión de boletas de rentas y otros procesos administrativos, definiendo la arquitectura funcional y los requisitos clave."
-          },
-          {
-            "item": "Implementé el módulo de boletas de rentas que automatiza la validación de datos y seguimiento, con control de estados y notificaciones para reducir errores manuales."
-          },
-          {
-            "item": "Desarrollé dashboards y reportes dinámicos para monitoreo de indicadores (volumen de trámites, tiempos de procesamiento, estados de boletas), permitiendo la toma de decisiones basada en datos y la medición de mejoras operativas."
-          }
-        ]
+        {
+          "item": "Designed and developed a notarial system to streamline tax receipt management and other administrative processes, defining functional architecture and key requirements."
+        },
+        {
+          "item": "Implemented the tax receipt module that automates data validation and tracking, with status control and notifications to reduce manual errors."
+        },
+        {
+          "item": "Developed dashboards and dynamic reports to monitor indicators (volume of procedures, processing times, receipt status), enabling data-driven decision-making and measurement of operational improvements."
+        }
+      ]
       },
       {
         "name": "NOTARIA 15 MEDELLÍN",
-        "position": "Auxiliar de protocolista",
+        "position": "Protocol Assistant",
         "url": "https://notaria15medellin.co/",
         "startDate": "08-12-2024",
         "endDate": "1-31-2025",
         "summary": [
           {
-            "item": "Redacté y revisé minutas de escrituración, garantizando la exactitud jurídica y el cumplimiento de requisitos registrales."
-          },  
-          {
-            "item": "Gestioné la preparación, verificación y carga de escrituras en el sistema de registro, asegurando la integridad y trazabilidad de la información."
+            "item": "Drafted and reviewed notarization documents, ensuring legal accuracy and compliance with registration requirements."
           },
           {
-            "item": "Organicé y mantuve el archivo de escrituras registradas, optimizando su localización para consultas internas y procesos de seguimiento."
+            "item": "Managed preparation, verification, and uploading of deeds into the registration system, ensuring information integrity and traceability."
+          },
+          {
+            "item": "Organized and maintained the archive of registered deeds, optimizing retrieval for internal queries and follow-up processes."
           }
         ]
       },
       {
         "name": "OPTIMA INGENIERIA",
-        "position": "Practicante Administrativo",
+        "position": "Administrative Intern",
         "url": "https://www.optimaingenieria.co/",
         "startDate": "06-06-2022",
         "endDate": "12-12-2022",
         "summary": [
-          {
-          "item": "Planteé y diseñé una propuesta funcional de un aplicativo interno para seguimiento de proyectos, definiendo objetivos, requisitos y flujos de información.."
+        {
+          "item": "Proposed and designed the functional outline of an internal application for project monitoring, defining objectives, requirements, and information flows."
         }
       ]
       }
@@ -81,7 +81,7 @@
         "url": "https://ceipa.edu.co",
         "courses": [
           {
-            "area": "Diplomado en desarrollo back-end ",
+            "area": "certificate in back-end development",
             "startDate": "2023-04-18",
             "endDate": "2023-08-1"
           }
@@ -92,12 +92,12 @@
         "url": "https://ceipa.edu.co",
         "courses": [
           {
-            "area": "Pregrado Administración de Empresas",
+            "area": "Bachelor’s Degree in Business Administration",
             "startDate": "2018-01-1",
             "endDate": "2023-07-1"
           },
           {
-            "area": "Curso de inglés ",
+            "area": "English Course",
             "startDate": "2022-01-1",
             "endDate": "2023-03-1"
           }
@@ -107,17 +107,17 @@
       "url": "https://www.eafit.edu.co/",
       "courses": [
         {
-          "area": "Pregrado Ingeniería de Sistemas",
+          "area": "Studies in Systems Engineering",
           "startDate": "2016-01-20",
           "endDate": "2016-06-20"
         },
         {
-          "area": "Pregrado Administración de Negocios",
+          "area": "Studies in Business Administration",
           "startDate": "2016-07-1",
           "endDate": "2017-11-1"
         },
         {
-          "area": "Curso de inglés ",
+          "area": "English Course ",
           "startDate": "2014-01-20",
           "endDate": "2017-10-10"
         }
@@ -145,16 +145,16 @@
       "profesionales": [
       
         {
-          "name": "Resolución de Problemas"
+          "name": "Problem Solving"
         },
         {
-          "name": "Trabajo en Equipo"
+          "name": "Teamwork"
         },
         {
-          "name": "Adaptabilidad y Aprendizaje Continuo"
+          "name": "Adaptability and Continuous Learning"
         },
         {
-          "name": "Planificación Estratégica"
+          "name": "Strategic Planning"
         }
       ]
     },
@@ -171,12 +171,12 @@
     "references": [
       {
         "name": "Nora Isabel Posada",
-        "occupation": "Arquitecta constructor en conbienes.",
+        "occupation": "Architect – Constructor at Conbienes",
         "phone":"+57 3208038947"
       },
       {
         "name": "Lizeth Uribe Alvarez",
-        "occupation": "Administradora pública.",
+        "occupation": "Public Administrator",
         "phone":"+57 3106344552"
       }
     ]

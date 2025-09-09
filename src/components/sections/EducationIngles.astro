@@ -1,0 +1,86 @@
+---
+import Section from "../Section.astro"
+import {obtenerFecha} from "../../helpers/fecha"
+import { education } from '../../../cvIngles.json'
+---
+
+<Section title="Education">
+  <ul>
+    {
+      education.map(({ institution,  url, courses }) => {
+      
+
+        return (
+          <li>
+            <article>
+                 <h3>
+                    <a href={url} title={`Visit ${institution}`} target="_blank">
+                            {institution}
+                  </a>
+                </h3>  
+                  {
+                    courses.map(({area,startDate,endDate})=> {
+
+                     
+                      return (
+                          <header>
+                              <div>
+                                <p>{area}</p>
+                              </div>
+                              <time>{obtenerFecha(startDate,endDate)}</time>
+                          </header> 
+                      )
+                    })
+                  }    
+            </article>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  article h3 {
+    font-weight: 500;
+    color: #111;
+  }
+  article a {
+      color: #111;
+    }
+  
+    article a:hover {
+      text-decoration: underline;
+    }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
+
+  time {
+    color: #555;
+    font-size: 0.85rem;
+    min-width: 102px;
+  }
+
+  @media (width <= 700px) {
+    time {
+      text-align: right;
+    }
+  }
+
+  @media print {
+    ul {
+      gap: 16px;
+    }
+  }
+</style>

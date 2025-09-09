@@ -1,0 +1,31 @@
+---
+import AboutIngles from "@/components/sections/AboutIngles.astro";
+import EducationIngles from "@/components/sections/EducationIngles.astro";
+import ExperienceIngles from "@/components/sections/ExperienceIngles.astro";
+import HeroIngles from "@/components/sections/HeroIngles.astro";
+import Layout from "../layouts/Layout.astro";
+import SkillsIngles from "@/components/sections/SkillsIngles.astro";
+import ReferencesIngles from "@/components/sections/ReferencesIngles.astro";
+import KeyboardIngles from "@/components/sections/KeyboardIngles.astro";
+import LanguageToggle from "@/components/LanguageToggle.astro";
+---
+
+<Layout title="Resume Daniel Ramírez Uribe">
+  <LanguageToggle isEnglish={true} />
+  <main>
+    <HeroIngles/>
+	<AboutIngles/>
+	<ExperienceIngles/>
+	<EducationIngles/>
+	<SkillsIngles/>
+	<KeyboardIngles/>
+  </main>
+</Layout>
+
+<style>
+	main {
+		padding: 4rem;
+		margin: auto;
+		width: 100%;
+	}
+</style>

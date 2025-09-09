@@ -1,0 +1,59 @@
+---
+interface Props {
+  isEnglish?: boolean;
+}
+
+const { isEnglish = false } = Astro.props;
+const currentPath = Astro.url.pathname;
+---
+
+<div class="language-toggle no-print">
+  {isEnglish ? (
+    <a href="/" class="toggle-button" title="Cambiar a Español">
+      🇪🇸 ES
+    </a>
+  ) : (
+    <a href="/english" class="toggle-button" title="Switch to English">
+      🇺🇸 EN
+    </a>
+  )}
+</div>
+
+<style>
+  .language-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+
+  .toggle-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    border: 2px solid #333;
+    border-radius: 8px;
+    color: #333;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+  }
+
+  .toggle-button:hover {
+    background: #333;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Asegurar que no aparezca en impresión */
+  @media print {
+    .language-toggle {
+      display: none !important;
+    }
+  }
+</style>
