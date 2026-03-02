@@ -26,6 +26,24 @@
     },
     "work": [
       {
+        "name": "KREDIX (kredixCRM)",
+        "position": "Frontend Developer – CRM & Case Management Platform",
+        "url": "",
+        "startDate": "1-12-2025",
+        "endDate": "",
+        "summary": [
+          {
+            "item": "Diseñé e implementé una plataforma CRM web para la gestión end-to-end de casos (radicación, asignación, seguimiento y cierre)."
+          },
+          {
+            "item": "Implementé control de estados y trazabilidad del ciclo de vida de cada caso (etapas, semáforos/estatus, eventos relevantes), habilitando coordinación operativa y reducción de reprocesos a través de consistencia de datos y manejo de errores con respuestas amigables."
+          },
+          {
+            "item": "Desarrollé vistas de detalle y componentes compuestos para inspección rápida de información (resumen del caso, datos del cliente, documentación y observaciones), optimizando UX con renderizado declarativo, estado derivado y reutilización de UI compartida."
+          }
+        ]
+      },
+      {
         "name": "NOTARIA 15 MEDELLÍN",
         "position": "Desarrollo Freelancer Sistema Notarial",
         "url": "https://notaria15medellin.co/",
